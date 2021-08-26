@@ -6,6 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { HeaderModule } from './header/header.module';
 import { BannerModule } from './banner/banner.module';
+import { MenuModule } from './menu/menu.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { BannerModule } from './banner/banner.module';
     BrowserAnimationsModule,
     MatSliderModule,
     HeaderModule,
-    BannerModule
+    BannerModule,
+    MenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
